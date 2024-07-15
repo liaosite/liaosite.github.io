@@ -7,6 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-I'm now a PhD student at Xidian University, under the supervision of Prof. [Weisheng Dong]([Weisheng Dong (xidian.edu.cn)](https://see.xidian.edu.cn/faculty/wsdong/)). I received B.Eng. of Artificial Intelligence from Xidian University in 2024.  I was admitted to purse a PhD's degree in XDU [VRL-Lab](https://vrl-lab.org/) without entrance examination.
+I'm now a PhD student at Xidian University, under the supervision of Prof. [Weisheng Dong]([Weisheng Dong (xidian.edu.cn)](https://see.xidian.edu.cn/faculty/wsdong/)). I'm also co-advised by Prof. [Le Dong](https://faculty.xidian.edu.cn/DL4/zh_CN/index/430205/list/index.htm). I received B.Eng. of Artificial Intelligence from Xidian University in 2024.  
 
 My research interest mianly lies in Network Architecture Search, Image/Video Denoising, Object Detection in Remote Sensing.
