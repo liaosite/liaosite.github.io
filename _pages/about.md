@@ -7,5 +7,5 @@ redirect_from:
   - /about.html
 ---
 
-I'm now the PhD student of Xidian University. 
+I'm now the PhD student of Xidian University, supervised by Weisheng Dong. 
 
