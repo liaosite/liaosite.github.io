@@ -1,5 +1,5 @@
 ---
-title: "Artificial Intelligence System Experiment (人工智能系统实验)"
+title: "Artificial Intelligence System Experiment"
 collection: teaching
 type: "Lab"
 permalink: /teaching/spring-teaching-1
@@ -7,4 +7,4 @@ venue: "School of Artificial Intelligence, Xidian University"
 date: Every Spring
 ---
 
-Expected to be the Teaching Assistant of 人工智能系统实验 every spring term
+Expected to be the Teaching Assistant of Artificial Intelligence System Experiment every spring term
