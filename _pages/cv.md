@@ -21,26 +21,24 @@ no work experience
 
 Honors and Awards
 ======
+2023, Huawei Intelligent Base Scholarship
 
-  <ul>{% for post in site.haa reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+2022, Huawei Intelligent Base Scholarship
 
 Publications
 ======
-
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
 Talks
 ======
-
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
+
 Teaching
 ======
-
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
