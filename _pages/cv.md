@@ -13,7 +13,7 @@ Education
 ======
 * 2024.09 - now, Ph.D in Computer Science, School of Artificial Intelligence, Xidian University
 * 2020.09 - 2024.06, B.Eng. of Artificial Intelligence, School of Artificial Intelligence, Xidian University
-* 2017.09 - 2020.07,  Suining No.1 High School
+* 2017.09 - 2020.07,  Suining No.1 High School, Jiangsu
 
 Internship and Work experience
 ======
