@@ -19,8 +19,16 @@ Internship and Work experience
 ======
 no work experience
 
+Honors and Awards
+======
+
+  <ul>{% for post in site.haa reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
 Publications
 ======
+
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>

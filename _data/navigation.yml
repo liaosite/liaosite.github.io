@@ -10,7 +10,10 @@ main:
     url: /teaching/    
         
   - title: "Blog Posts"
-    url: /year-archive/
+    url: "https://liaoxdu.top/"
+
+  - title: "Honors an Awards"
+    url: /haa/
     
   - title: "CV"
     url: /cv/
