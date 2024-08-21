@@ -1,7 +1,7 @@
 ---
 title: '有关MobileNet的笔记'
 date: 2024-08-21
-permalink: /posts/
+permalink: /posts/lightweight/
 tags:
   - 轻量级网络
 ---
