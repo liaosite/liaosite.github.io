@@ -42,3 +42,7 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+Academic Service
+======
+2025, ICME reviewer
