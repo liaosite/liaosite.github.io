@@ -3,6 +3,7 @@ title: "LoopExpose: An Unsupervised Framework for Arbitrary-Length Exposure Corr
 collection: publications
 permalink: /publication/loopexpose/
 order: 1
+year: 2026
 status: "Accepted"
 status_key: "accepted"
 venue: "IEEE Transactions on Image Processing (TIP)"

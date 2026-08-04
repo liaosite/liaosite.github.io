@@ -39,7 +39,7 @@
     {% if post.citation %}
       <p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p>
     {% elsif post.status %}
-      <p class="archive__item-excerpt" itemprop="description">{{ post.status }}{% if post.venue %} at <i>{{ post.venue }}</i>{% endif %}</p>
+      <p class="archive__item-excerpt" itemprop="description">{% if post.year %}{{ post.year }} &middot; {% endif %}{{ post.status }}{% if post.venue %} at <i>{{ post.venue }}</i>{% endif %}</p>
     {% endif %}
     </li>
  </article>

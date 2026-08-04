@@ -11,10 +11,7 @@ itemprop="image"
 >
 </figure>
 <div class="publication-item__body">
-<p class="publication-item__meta">
-<span class="publication-status publication-status--{{ post.status_key }}">{{ post.status }}</span>
-{% if post.venue %}<span class="publication-venue">{{ post.venue }}</span>{% endif %}
-</p>
+<p class="publication-item__meta">{% if post.year %}<span class="publication-year">{{ post.year }}</span>{% endif %}<span class="publication-status publication-status--{{ post.status_key }}">{{ post.status }}</span>{% if post.venue %}<span class="publication-venue">{{ post.venue }}</span>{% endif %}</p>
 <h3 class="publication-item__title" itemprop="headline">
 <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
 </h3>
