@@ -1,0 +1,32 @@
+{% assign publications = site.publications | sort: "order" %}
+<div class="publication-list">
+{% for post in publications %}
+<article class="publication-item" itemscope itemtype="https://schema.org/ScholarlyArticle">
+<figure class="publication-item__media">
+<img
+src="{{ post.image | relative_url }}"
+alt="{{ post.image_alt | escape }}"
+loading="lazy"
+itemprop="image"
+>
+</figure>
+<div class="publication-item__body">
+<p class="publication-item__meta">
+<span class="publication-status publication-status--{{ post.status_key }}">{{ post.status }}</span>
+{% if post.venue %}<span class="publication-venue">{{ post.venue }}</span>{% endif %}
+</p>
+<h3 class="publication-item__title" itemprop="headline">
+<a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+</h3>
+<div class="publication-item__summary" itemprop="abstract">
+{{ post.excerpt | markdownify }}
+</div>
+{% if post.codeurl %}
+<a class="publication-item__link" href="{{ post.codeurl }}">
+<i class="fab fa-fw fa-github" aria-hidden="true"></i>Code
+</a>
+{% endif %}
+</div>
+</article>
+{% endfor %}
+</div>
