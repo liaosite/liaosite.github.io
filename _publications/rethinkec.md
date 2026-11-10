@@ -9,6 +9,7 @@ image: "/images/publications/rethinkec.png"
 image_alt: "Visual comparison of spatially non-uniform exposure correction results"
 excerpt: >-
   This work reformulates exposure correction around spatially non-uniform degradation. It predicts region-adaptive modulation signals for explicit 3D LUT transformation, supplements color fidelity in HSL space, and uses uncertainty-aware optimization to balance heterogeneous local restoration demands.
+codeurl: "https://github.com/FALALAS/rethinkingEC"
 ---
 
 <figure class="publication-detail-image">
@@ -16,3 +17,5 @@ excerpt: >-
 </figure>
 
 {{ page.excerpt | markdownify }}
+
+[View code]({{ page.codeurl }})
